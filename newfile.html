@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Pet cas</title>
+        <style>
+            @import url("../stilovi/dodatni/peticas.css");
+
+p {
+    font-family: Ani, Chandas, Serif;
+    letter-spacing: 5px;
+    text-shadow: 1px -1px gray;
+}
+
+/* default */
+a:link {
+    color: black;
+}
+
+/* posjeceni link */
+a:visited {
+    color: yellow;
+}
+
+/* mis iznad linka */
+a:hover {
+    color: green;
+}
+
+/* aktivan link */
+a:active {
+    color: red;
+}
+
+img:hover {
+    opacity: 0.6; /* ili 60% */
+    cursor: pointer;
+    transition-delay: 3s;
+    transition-duration: 2s;
+}
+
+input#unos:focus {
+    background-color: purple;
+    color: greenyellow;
+    font-weight: bold;
+}
+
+p:first-line {
+    color: brown;
+    letter-spacing: 1px;
+}
+
+p:first-letter {
+    font-size: 60px;
+}
+
+p:before {
+    content: "Bajka : ";
+}
+
+p:after {
+    content: " Kraj!";
+}
+
+input[placeholder] {
+    background-color: blue;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+tr:nth-child(3) {
+    background-color: antiquewhite;
+}
+
+tr:last-child {
+    background-color: yellow;
+}
+
+tr:nth-last-child(3) {
+    background-color: aquamarine;
+}
+
+tr:nth-last-child(even) { /* ili odd */
+    background-color: khaki;
+}
+        </style>
+    </head>
+    <body>
+        <a href="http://nekilink.com" target="_blank">Neki Link</a>
+<a href="http://google.com" target="_blank">Google Link</a>
+
+<br/>
+
+
+<a href="http://nekilink.com" target="_blank">
+    <img src="submit_icon.png" alt="sumbit" width="100px" height="100px" title="SUBMIT"/>
+</a>
+
+<input type="text" placeholder="Placeholder" id="unos">
+<input type="text" placeholder="Placeholder" id="ispis">
+<input type="text" id="ispis2">
+
+<input type="checkbox" value="Muski"> Muski
+<input type="checkbox" value="Zenski"> Zenski
+
+<p>
+    Neki paragraf. Neki paragraf. Neki paragraf. Neki paragraf. Neki paragraf. Neki paragraf. Neki paragraf. Neki paragraf.
+    Neki paragraf. Neki paragraf. Neki paragraf. Neki paragraf. Neki paragraf. Neki paragraf. Neki paragraf. Neki paragraf.
+    Neki paragraf. Neki paragraf. Neki paragraf. Neki paragraf. Neki paragraf. Neki paragraf. Neki paragraf. Neki paragraf.
+    Neki paragraf. Neki paragraf. Neki paragraf. Neki paragraf. Neki paragraf. Neki paragraf. Neki paragraf. Neki paragraf.
+    Neki paragraf. Neki paragraf. Neki paragraf. Neki paragraf. Neki paragraf. Neki paragraf. Neki paragraf. Neki paragraf.
+    Neki paragraf. Neki paragraf. Neki paragraf. Neki paragraf. Neki paragraf. Neki paragraf. Neki paragraf. Neki paragraf.
+    Neki paragraf. Neki paragraf. Neki paragraf. Neki paragraf. Neki paragraf. Neki paragraf. Neki paragraf. Neki paragraf.
+</p>
+<p>Drugi paragraf</p>
+
+<table border="2">
+    <tr>
+        <th>Rb</th>
+        <th>Zivotinja</th>
+        <th>Ime</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Pas</td>
+        <td>Rex</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Pas</td>
+        <td>Jimmy</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Riba</td>
+        <td>Nemo</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Pas</td>
+        <td>Boby</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Macka</td>
+        <td>Garfild</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>Mis</td>
+        <td>Jerry</td>
+    </tr>
+</table>
+
+
+    </body>
+</html>
